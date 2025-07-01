@@ -8,7 +8,47 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
-    <link
+
+
+    <title>Shoes Site</title>
+    <style>
+      :root {
+        --color: linear-gradient(
+          90deg,
+          rgba(2, 0, 36, 1) 0%,
+          rgba(9, 105, 255, 1) 35%,
+          rgba(0, 212, 255, 1) 100%
+        );
+        --hbgcolor: #e26c8e;
+        --fbgcolor: rgb(0, 0, 0);
+        --fontcolor: #bac0bb;
+      }
+      .btn-color {
+        background-image: var(--color);
+      }
+      .bg-color {
+        background-color: var(--hbgcolor);
+      }
+      .ft-bg-color {
+        background-color: var(--fbgcolor);
+      }
+      .txt-color {
+        color: var(--fbgcolor);
+      }
+      .font-color {
+        color: var(--fontcolor);
+      }
+      .font {
+        font-family: sans-serif;
+      }
+      /* @media screen and (max-width: 600px) {
+        .card{
+          width: 100% !important;
+        }
+      } */
+    </style>
+
+        <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
       integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -22,30 +62,15 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-
-    <title>Shoes Site</title>
-    <style>
-      :root {
-        --color: linear-gradient(
-          90deg,
-          rgba(2, 0, 36, 1) 0%,
-          rgba(9, 105, 255, 1) 35%,
-          rgba(0, 212, 255, 1) 100%
-        );
-      }
-      .btn-color {
-        background-image: var(--color);
-      }
-    </style>
   </head>
   <body>
-    <header class="btn-color container-fluid d-flex">
+    <header class="border border-light btn-color container-fluid d-flex">
    <div class="container">
-       <div class="row d-flex justify-content-center">
-        <div class=" col-md-6 col-12 display-1 text-dark fw-bold">
+       <div class="row justify-content-center text-center">
+        <div class=" col-md-6 col-12 display-1 txt-color fw-bold text-md-start">
           <span class="text-light">MEN's</span> <br />Shoe <br />Collections
         </div>
-        <div class=" col-md-6 col-12 d-flex justify-content-end">
+        <div class=" col-md-6 col-12 d-flex justify-content-center justify-content-md-end ">
           <img
             src="https://freepngimg.com/thumb/shoes/27428-5-nike-shoes-transparent-background.png"
             height="300px"
@@ -56,16 +81,12 @@
       </div>
    </div>
     </header>
-    <section class=" container-fluid bg-danger">
+    <section class=" container-fluid">
       <div class="container">
-        <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card w-75">
-            <img
-              src="https://images.asos-media.com/products/nike-air-max-dia-trainers-in-white/11822097-4?$XXL$&wid=513&fit=constrain"
-              alt="..."
-              height="300px"
-            />
+        <div class="row d-flex justify-content-center align-items-center my-5">
+        <div class="col-12 col-md-6 col-lg-4 my-5">
+          <div class="card shadow rounded " >
+            <img src="https://images.asos-media.com/products/nike-air-max-dia-trainers-in-white/11822097-4?$XXL$&amp;wid=513&amp;fit=constrain" class="card-img-top mx-auto" style="height:16rem">
             <div class="card-body">
               <h5 class="card-title">MENs Shoe</h5>
               <p class="card-text">the bulk of the card’s content.</p>
@@ -103,13 +124,9 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card w-75">
-            <img
-              src="https://images.asos-media.com/products/nike-air-max-dia-trainers-in-white/11822097-4?$XXL$&wid=513&fit=constrain"
-              alt="..."
-              height="300px"
-            />
+        <div class="col-12 col-md-6 col-lg-4 my-5">
+          <div class="card shadow rounded " >
+            <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/7/28/6b0c9869-fa8c-46c8-aca9-5b86d3c4022a.jpg.webp" class="card-img-top mx-auto" style="height:16rem">
             <div class="card-body">
               <h5 class="card-title">MENs Shoe</h5>
               <p class="card-text">the bulk of the card’s content.</p>
@@ -147,13 +164,9 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card w-75">
-            <img
-              src="https://images.asos-media.com/products/nike-air-max-dia-trainers-in-white/11822097-4?$XXL$&wid=513&fit=constrain"
-              alt="..."
-              height="300px"
-            />
+        <div class="col-12 col-md-6 col-lg-4 my-5">
+          <div class="card shadow rounded ">
+            <img src="https://i.pinimg.com/564x/69/c4/7a/69c47a91ba396f5c48ff1361e5f4f1cb.jpg" class="card-img-top mx-auto" style="height:16rem">
             <div class="card-body">
               <h5 class="card-title">MENs Shoe</h5>
               <p class="card-text">the bulk of the card’s content.</p>
@@ -191,9 +204,286 @@
             </div>
           </div>
         </div>
+        <div class="col-12 col-md-6 col-lg-4 my-5">
+          <div class="card shadow rounded " >
+            <img src="https://i5.walmartimages.com/asr/3c5d050b-47db-4d3e-8159-df924215a5aa.274f0e0aae02ee9e0b774d65f2026670.jpeg?odnHeight=2000&amp;odnWidth=2000&amp;odnBg=ffffff" class="card-img-top mx-auto" style="height:16rem">
+            <div class="card-body">
+              <h5 class="card-title">MENs Shoe</h5>
+              <p class="card-text">the bulk of the card’s content.</p>
+              <div class="d-flex">
+                <div class="text-danger">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="text-danger">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div><i class="fa-solid fa-star"></i></div>
+                <div><i class="fa-solid fa-star"></i></div>
+                <div><i class="fa-solid fa-star"></i></div>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="h6">COLORS</div>
+                <div class="h4">49.99$</div>
+              </div>
+              <div class="d-flex align-items-center">
+                <div
+                  class="bg-primary m-1"
+                  style="width: 15px; height: 22px; border-radius: 50%"
+                ></div>
+                <div
+                  class="bg-warning"
+                  style="width: 15px; height: 22px; border-radius: 50%"
+                ></div>
+                <div
+                  class="bg-danger m-1"
+                  style="width: 15px; height: 22px; border-radius: 50%"
+                ></div>
+              </div>
+
+              <a href="#" class="btn btn-color text-light w-100">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 my-5">
+          <div class="card shadow rounded ">
+            <img src="https://cf.shopee.co.th/file/0a391e6ab379e4ec359ff0fe87d52b58" class="card-img-top mx-auto" style="height:16rem">
+            <div class="card-body">
+              <h5 class="card-title">MENs Shoe</h5>
+              <p class="card-text">the bulk of the card’s content.</p>
+              <div class="d-flex">
+                <div class="text-danger">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="text-danger">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div><i class="fa-solid fa-star"></i></div>
+                <div><i class="fa-solid fa-star"></i></div>
+                <div><i class="fa-solid fa-star"></i></div>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="h6">COLORS</div>
+                <div class="h4">49.99$</div>
+              </div>
+              <div class="d-flex align-items-center">
+                <div
+                  class="bg-primary m-1"
+                  style="width: 15px; height: 22px; border-radius: 50%"
+                ></div>
+                <div
+                  class="bg-warning"
+                  style="width: 15px; height: 22px; border-radius: 50%"
+                ></div>
+                <div
+                  class="bg-danger m-1"
+                  style="width: 15px; height: 22px; border-radius: 50%"
+                ></div>
+              </div>
+
+              <a href="#" class="btn btn-color text-light w-100">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 my-5">
+          <div class="card shadow rounded ">
+            <img src="https://images.asos-media.com/products/nike-grey-air-max-97-trainers/10103510-1-oafoilgrey" class="card-img-top mx-auto" style="height:16rem">
+            <div class="card-body">
+              <h5 class="card-title">MENs Shoe</h5>
+              <p class="card-text">the bulk of the card’s content.</p>
+              <div class="d-flex">
+                <div class="text-danger">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="text-danger">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div><i class="fa-solid fa-star"></i></div>
+                <div><i class="fa-solid fa-star"></i></div>
+                <div><i class="fa-solid fa-star"></i></div>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="h6">COLORS</div>
+                <div class="h4">49.99$</div>
+              </div>
+              <div class="d-flex align-items-center">
+                <div
+                  class="bg-primary m-1"
+                  style="width: 15px; height: 22px; border-radius: 50%"
+                ></div>
+                <div
+                  class="bg-warning"
+                  style="width: 15px; height: 22px; border-radius: 50%"
+                ></div>
+                <div
+                  class="bg-danger m-1"
+                  style="width: 15px; height: 22px; border-radius: 50%"
+                ></div>
+              </div>
+
+              <a href="#" class="btn btn-color text-light w-100">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+          
+        
       </div>
       </div>
     </section>
+        <footer class="border ft-bg-color container-fluid d-flex pb-5">
+      <section class="container">
+        <div class="row g-5 m-3 mx-md-0">
+          <div class="col-md-3 col-12 font text-light">
+            <h3>About Us</h3>
+            <div
+              class="bg-light rounded-pill my-4"
+              style="height: 0.2rem; width: 5rem"
+            ></div>
+            <p class="font-color">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="d-flex">
+              <a href="https://snipbyte.com"
+                ><i
+                  class="p-1 text-dark rounded-circle me-3 fa-brands fa-facebook"
+                ></i
+              ></a>
+              <a href="https://snipbyte.com"
+                ><i
+                  class="p-1 text-dark rounded-circle me-3 fa-brands fa-instagram"
+                ></i
+              ></a>
+              <a href="https://snipbyte.com"
+                ><i
+                  class="p-1 text-dark rounded-circle bg-secondary me-3 fa-brands fa-twitter padding foot_col"
+                ></i
+              ></a>
+              <a href="https://snipbyte.com"
+                ><i
+                  class="p-1 text-dark rounded-circle bg-secondary fa-brands fa-whatsapp padding foot_col"
+                ></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-3 col-12 font text-light">
+            <h3>Get In Touch</h3>
+            <div
+              class="bg-light rounded-pill my-4"
+              style="height: 0.2rem; width: 5rem"
+            ></div>
+            <section class="font-color m-auto">
+              <section class="my-2">
+                <i class="fas fa-user rounded me-3 font_txt-color foot_col"></i>
+                Hamza Shahzad
+              </section>
+              <section class="my-2">
+                <i class="fas fa-map-marker-alt rounded me-3 foot_col"></i>
+                Islamabad, Pakistan
+              </section>
+              <section class="my-2">
+                <i class="fas fa-envelope rounded me-3 foot_col"></i>
+                hamzashazy.work@gmail.com
+              </section>
+              <section class="my-2">
+                <i class="fas fa-globe rounded me-3 foot_col"></i>
+                www.hamzashazy.com
+              </section>
+            </section>
+          </div>
+          <div class="col-md-2 col-12 font text-light">
+            <h3>Useful Links</h3>
+            <div
+              class="bg-light rounded-pill my-4"
+              style="height: 0.2rem; width: 5rem"
+            ></div>
+            <div class="d-flex flex-column">
+              <a class="font-color text-decoration-none" href="www.facebook.com"
+                >About Us</a
+              >
+              <a class="font-color text-decoration-none" href="www.facebook.com"
+                >Contact Us</a
+              >
+              <a class="font-color text-decoration-none" href="www.facebook.com"
+                >Events</a
+              >
+              <a class="font-color text-decoration-none" href="www.facebook.com"
+                >Blogs</a
+              >
+              <a class="font-color text-decoration-none" href="www.facebook.com"
+                >About Us</a
+              >
+              <a class="font-color text-decoration-none" href="www.facebook.com"
+                >Contact Us</a
+              >
+              <a class="font-color text-decoration-none" href="www.facebook.com"
+                >Events</a
+              >
+              <a class="font-color text-decoration-none" href="www.facebook.com"
+                >Blogs</a
+              >
+            </div>
+          </div>
+          <div class="col-md-4 col-12 font text-light">
+            <h3>Latest Products</h3>
+            <div
+              class="bg-light rounded-pill my-4"
+              style="height: 0.2rem; width: 5rem"
+            ></div>
+            <div class="d-flex flex-wrap gap-2">
+              <img
+                src="https://img.freepik.com/free-photo/group-positive-young-people-posing-together_23-2148431344.jpg?w=740&amp;t=st=1693716749~exp=1693717349~hmac=6b66b92050c3a7f1e90641b123dcc36046c8b6403292e922654824b32830b1a4"
+                style="height: 4rem; width: 6rem"
+              />
+              <img
+                src="https://img.freepik.com/free-photo/adult-man-woman-posing-together_23-2148431394.jpg?w=740&amp;t=st=1693716782~exp=1693717382~hmac=748d8d96a2517d927436f1059942f6fe5c8128ab1f4b8d29baf22a304d471811"
+                style="height: 4rem; width: 6rem"
+              />
+              <img
+                src="https://img.freepik.com/free-photo/interior-home-decor-with-photo-frames_23-2149514001.jpg?w=740&amp;t=st=1693716799~exp=1693717399~hmac=add194c4583c122f6df0ad3f0ed73a755bf7bc50a163b2dd6ee62d2aae4ae872"
+                style="height: 4rem; width: 6rem"
+              />
+              <img
+                src="https://img.freepik.com/free-photo/group-positive-young-people-posing-together_23-2148431344.jpg?w=740&amp;t=st=1693716749~exp=1693717349~hmac=6b66b92050c3a7f1e90641b123dcc36046c8b6403292e922654824b32830b1a4"
+                style="height: 4rem; width: 6rem"
+              />
+              <img
+                src="https://img.freepik.com/free-photo/adult-man-woman-posing-together_23-2148431394.jpg?w=740&amp;t=st=1693716782~exp=1693717382~hmac=748d8d96a2517d927436f1059942f6fe5c8128ab1f4b8d29baf22a304d471811"
+                style="height: 4rem; width: 6rem"
+              />
+              <img
+                src="https://img.freepik.com/free-photo/interior-home-decor-with-photo-frames_23-2149514001.jpg?w=740&amp;t=st=1693716799~exp=1693717399~hmac=add194c4583c122f6df0ad3f0ed73a755bf7bc50a163b2dd6ee62d2aae4ae872"
+                style="height: 4rem; width: 6rem"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="justify-content-center">
+          <div>
+            <p class="font font-color text-center">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore consequat.
+            </p>
+            <form class="d-flex justify-content-center flex-wrap">
+                <input
+                  type="name"
+                  class="form-control w-auto m-1"
+                  placeholder="Your Name"
+                />
+                <input
+                  type="email"
+                  class="form-control w-auto m-1"
+                  placeholder="Your Email"
+                />
+              <button type="SUBSCRIBE" class="btn btn-success px-5 w-auto m-1">Submit</button>
+            </form>
+            <hr>
+            <p class="text-center font font-color">@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </section>
+    </footer>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
